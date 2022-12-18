@@ -47,10 +47,6 @@ theme = "hugo-hero"
     url = "/about/"
     weight = 3
 
-[[menu.main]]
-    name = "History"
-    url = "/history/"
-    weight = 3
 
 [[menu.main]]
     name = "Contact"
