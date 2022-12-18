@@ -1,13 +1,15 @@
 ---
 title: 'Business Sales'
 date: 2018-11-28T15:15:26+10:00
-icon: 'services/service-icon-3.png'
+icon: 'services/service-icon-3-2.png'
 featured: true
 draft: false
 heroHeading: 'Business Sales'
 heroSubHeading: 'We can help value your business and prepare it for sale.'
 heroBackground: 'services/service1.jpg'
 ---
+
+<a href="https://www.flaticon.com/free-icons/security" title="security icons">Security icons created by Freepik - Flaticon</a>
 
 Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
 vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
