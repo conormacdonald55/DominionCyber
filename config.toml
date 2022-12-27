@@ -31,7 +31,7 @@ enableRobotsTXT = true
     size = "h-14"
 
   [params.site]
-    name = "Tella"
+    name = "Dominion Cyber"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
@@ -39,7 +39,7 @@ enableRobotsTXT = true
 
   [params.homepage_meta_tags]
     meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_og_title = "Tella"
+    meta_og_title = "Dominion Cyber"
     meta_og_type = "website"
     meta_og_url = "https://tella.pages.dev"
     meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
@@ -80,8 +80,8 @@ enableRobotsTXT = true
     url = "/"
       weight = 1
 
-  [[menu.footer]]
-    name = "Github"
-    url = "https://github.com/opera7133/tella"
-    pre = "<i class='icon-github text-2xl'></i>"
-      weight = 2
+#  [[menu.footer]]
+#    name = "Github"
+#    url = "https://github.com/opera7133/tella"
+#    pre = "<i class='icon-github text-2xl'></i>"
+#      weight = 2
