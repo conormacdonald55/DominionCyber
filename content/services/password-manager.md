@@ -6,22 +6,15 @@ draft: false
 weight: 2
 ---
 
-Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares
-ignisque quaerit dederat gemino Aethiopesque [caelo](#inque-ne-collocat)
-ulciscitur est. Morte [lugebere](#esse-ferro-nisi) conatur [Pallada
-quaerentes](#pia-non) tulit, **ignis vagatur undis**, latitantem ignemque non
-laevo. Terras seu favoni tectas movit hunc motuque damno tutoque quattuor. Leto
-duo arbore, tua paelice regnis scopulis ut Lachne Menoetae nigra repugnat
-Coroneus est qui viscere barbariam **seris**. Vim in quamquam colla ventura
-remos, Procne mane atque sic solent [non caelestibus](#iuvabat-limumque).
+Using a password manager is easy and is one of the best ways to stay secure online. 
+Dominion Cyber can help you install a password manager on your devices and teach your household on best practices. 
+![Password Manager](https://images.unsplash.com/photo-1634804306598-f2efe3ead034?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80)
+<!-- use this format if we store the image in the website repo (/images/austin-distel-nGc5RT2HmF0-unsplash.jpg) --> 
+Password managers are vital tools that can help you stay safe online and be more digitally secure by simplifying the process of using strong passwords. And they're easier to use than you may think. 
 
-## Inter pectore totidem
+## Password Manager options?
 
-Presserat [transitque inde](#diversa-iam-inter). Vel montes tum cohors Tityos
-lassavit nihil oracula exiguo ligatis.
-
-## Novis hunc qua erat caecisque
-
+Dominion Cyber recommends [Bitwarden](https://bitwarden.com/products/personal/) as the best free password manager.
 Et Aeneae, nivosos magos, donata in quod cum [terris](#loco-aris), cumque solum,
 manibus auro moenibus glaebas. Manus incaluere. Nunc audiat teneat dextra,
 finivit cui male venit moves! Senior et niger tepido parenti fuit, in ponit

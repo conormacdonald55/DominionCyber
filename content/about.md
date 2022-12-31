@@ -3,9 +3,17 @@ title: 'About'
 date: 2018-02-22T17:01:34+07:00
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Iocane is one of South Australia’s largest independent ICT solutions providers. We offer integrated services and expertise to meet the ever-changing technology needs of business.
+
+Our approach is different. We focus on the delivery of tailored ICT solutions that add value and deliver real results to business.
+
+Our primary objective is to deliver the right ICT solution for each client. It’s not a case of ‘one size fits all’. We partner with leading ICT vendors to identify the best technology combinations to meet business needs now and in the future. Our solutions are reliable and flexible, helping businesses evolve as their needs change.
+
+We’ve built long-term professional partnerships – business relationships that we value and respect. We know that exceptional customer service, seamless communication and a constantly evolving knowledge base are critical to best practice ICT service delivery. These demonstrated abilities have seen many of our clients partner with us since our inception in 1999.
+
+Our portfolio includes clients across multiple industry sectors from corporate and government to defence, education, not for profit and manufacturing.
+
+Iocane is a privately owned and operated Adelaide based business that delivers ICT services. With a team of highly experienced engineers there are no limits to our ability to support local, national or international business needs. We are a professional services firm with a commitment to responsive customer service.
 
 ## Ne verba patulosque numen vix libet
 

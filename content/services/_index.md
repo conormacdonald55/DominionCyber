@@ -8,4 +8,4 @@ intro_image_hide_on_mobile: false
 
 # Services
 
-We offer a range of services to protect and secure your home network. 
+We offer a range of services to protect and secure your home network. From one-off installations or a complete overhaul of your network, we can customise our services to your needs.
