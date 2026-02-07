@@ -81,10 +81,10 @@ paginate = 10
 [params.see_more]
   enable = true
   icon = "far fa-file-alt"
-  title = "Learn About Staying Safe Online"
-  subtitle = "Check out our blog for practical cybersecurity tips you can use today"
-  link_url = "/blog"
-  link_text = "Visit Our Blog"
+  title = "Ready to Improve Your Cybersecurity?"
+  subtitle = "Book a free 30-minute consultation to discuss how we can help protect your family or business"
+  link_url = "/contact/"
+  link_text = "Get in Touch"
 
 # Clients/Partners (disabled for now)
 [params.clients]
@@ -95,8 +95,8 @@ paginate = 10
 # Recent blog posts
 [params.recent_posts]
   enable = true
-  title = "Latest from Our Blog"
-  subtitle = "Practical cybersecurity advice for everyday people"
+  title = "Latest Cybersecurity Tips"
+  subtitle = "Practical advice you can use today"
 
 # Menu
 [[menu.main]]

@@ -1,0 +1,11 @@
+weight: 3
+title: "School Cybersecurity Programs"
+description: >
+  <p>Comprehensive cybersecurity education for schools - from teacher training 
+  to student workshops and parent information sessions.</p>
+  <ul class="list-style-none">
+    <li>✓ Teacher & staff training</li>
+    <li>✓ Student education programs</li>
+    <li>✓ Parent workshops</li>
+  </ul>
+image: "img/carousel/school-cyber.jpg"
