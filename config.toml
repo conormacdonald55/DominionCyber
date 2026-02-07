@@ -1,58 +1,148 @@
-baseURL = "/"
-languageCode = "en-us"
-title = "Hugo Hero Theme"
-themesDir = "themes"
-theme = "hugo-hero"
+baseURL = "https://dominioncyber.com.au/"
+languageCode = "en-au"
+title = "Dominion Cyber - Adelaide Cybersecurity Education"
+theme = "hugo-universal-theme"
 
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.92.0"
-    
+# Enable robots.txt generation
+enableRobotsTXT = true
+
+# Language
+defaultContentLanguage = "en"
+
+# Pagination
+paginate = 10
+
 [params]
-  google_analytics_id=""
+  viewMorePostLink = "/blog/"
+  author = "Dominion Cyber"
+  defaultKeywords = ["cybersecurity", "adelaide", "cyber security", "password manager", "family online safety", "small business security", "school cybersecurity"]
+  mainSections = ["blog"]
+  defaultDescription = "Adelaide's trusted cybersecurity educator. Protecting families and small businesses with practical, hands-on security training and education."
 
-  [params.logo]
-    mobile = "images/logo-mobile.svg"
-    mobile_height = "36px"
-    mobile_width = "36px"
-    desktop = "images/logo.svg"
-    desktop_height = "29px"
-    desktop_width = "217px"
-    alt = "Hugo Hero"
+  # Style options
+  style = "default"  # options: default, blue, green, marsala, pink, red, turquoise, violet
+  
+  # Contact info
+  about_us = "<p>Dominion Cyber provides hands-on cybersecurity education and consulting for Adelaide families, small businesses, and schools. We make digital safety simple and accessible.</p>"
+  copyright = "Copyright © 2026 Dominion Cyber. All rights reserved."
 
-  [params.homepage_meta_tags]
-    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_og_title = "Hugo Hero Theme"
-    meta_og_type = "website"
-    meta_og_url = "https://hugo-hero.netlify.app"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+  # Format dates
+  date_format = "2 January 2006"
 
+  # Logo
+  logo = "img/logo.png"
+  logo_small = "img/logo-small.png"
+  
+  # Contact details
+  address = """<p class="text-uppercase"><strong>Dominion Cyber</strong>
+        <br>Adelaide Metro Area
+        <br>South Australia
+        <br>
+        <strong>Australia</strong>
+      </p>
+      """
+  latitude = "-34.9285"
+  longitude = "138.6007"
+  email = "contact@dominioncyber.com.au"
+  # Add your phone when ready
+  # phone = "+61 4XX XXX XXX"
+
+# Top bar (shows contact info)
+[params.topbar]
+  enable = true
+  text = """<p class="hidden-sm hidden-xs">Protecting Adelaide families and businesses</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+61XXXXXXXXX" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:contact@dominioncyber.com.au" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      """
+
+# Carousel on homepage
+[params.carousel]
+  enable = true
+  # auto_play = true
+  # slide_speed = 2000
+  # pagination_speed = 1000
+
+# Features section
+[params.features]
+  enable = true
+  cols = 3  # 3 columns for services
+  title = "Our Services"
+  subtitle = "Practical cybersecurity solutions for everyday Australians"
+
+# Testimonials
+[params.testimonials]
+  enable = true
+  title = "What Our Clients Say"
+  subtitle = "Real feedback from Adelaide families and businesses we've helped"
+
+# See more section
+[params.see_more]
+  enable = true
+  icon = "far fa-file-alt"
+  title = "Learn About Staying Safe Online"
+  subtitle = "Check out our blog for practical cybersecurity tips you can use today"
+  link_url = "/blog"
+  link_text = "Visit Our Blog"
+
+# Clients/Partners (disabled for now)
+[params.clients]
+  enable = false
+  title = "Our Clients"
+  subtitle = ""
+
+# Recent blog posts
+[params.recent_posts]
+  enable = true
+  title = "Latest from Our Blog"
+  subtitle = "Practical cybersecurity advice for everyday people"
+
+# Menu
 [[menu.main]]
-	name = "Services"
-	url = "/services/"
+    identifier = "home"
+    name = "Home"
+    url  = "/"
     weight = 1
 
 [[menu.main]]
-    name = "Work"
-    url = "/work/"
+    identifier = "services"
+    name = "Services"
+    url  = "/services/"
     weight = 2
 
 [[menu.main]]
+    identifier="about"
     name = "About"
-    url = "/about/"
+    url  = "/about/"
     weight = 3
 
-
 [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
+    identifier = "faq"
+    name = "FAQ"
+    url  = "/faq/"
     weight = 4
 
-[permalinks]
-  post = "/:year/:month/:day/:slug/"
-  pages = "/:filename/"
+[[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url  = "/blog/"
+    weight = 5
+
+[[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url  = "/contact/"
+    weight = 6
+
+# Footer menu
+[[menu.topbar]]
+    weight = 1
+    name = "Phone: +61 4XX XXX XXX"
+    url = "tel:+61XXXXXXXXX"
+    pre = "<i class='fas fa-2x fa-phone'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Email"
+    url = "mailto:contact@dominioncyber.com.au"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
