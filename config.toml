@@ -18,9 +18,10 @@ paginate = 10
   defaultKeywords = ["cybersecurity", "adelaide", "cyber security", "password manager", "family online safety", "small business security", "school cybersecurity"]
   mainSections = ["blog"]
   defaultDescription = "Adelaide's trusted cybersecurity educator. Protecting families and small businesses with practical, hands-on security training and education."
+  favicon = "favicon.ico"
 
   # Style options
-  style = "default"  # options: default, blue, green, marsala, pink, red, turquoise, violet
+  style = "blue"  # options: default, blue, green, marsala, pink, red, turquoise, violet
   
   # Contact info
   about_us = "<p>Dominion Cyber provides hands-on cybersecurity education and consulting for Adelaide families, small businesses, and schools. We make digital safety simple and accessible.</p>"
