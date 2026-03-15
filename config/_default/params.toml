@@ -1,0 +1,46 @@
+# Hinode params for Dominion Cyber
+
+[author]
+  name = "Conor MacDonald"
+
+[description]
+  default = "Professional in-home cybersecurity consulting for Adelaide families"
+
+[style]
+  default = "light"
+  
+[logo]
+  dark = "/images/logo-dark.png"
+  light = "/images/logo-light.png"
+  
+[navigation]
+  align = "start"
+  breadcrumb = true
+  search = true
+  
+[marketing]
+  google_analytics = ""
+
+[[navigation.links]]
+  title = "Services"
+  url = "/services/"
+  
+[[navigation.links]]
+  title = "Packages"
+  url = "/packages/"
+  
+[[navigation.links]]
+  title = "About"
+  url = "/about/"
+  
+[[navigation.links]]
+  title = "Why Families Need Us"
+  url = "/why-us/"
+  
+[[navigation.links]]
+  title = "Resources"
+  url = "/resources/"
+  
+[[navigation.links]]
+  title = "Contact"
+  url = "/contact/"
