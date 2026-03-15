@@ -1,0 +1,68 @@
+title = "Dominion Cyber"
+copyright = "Copyright © 2025 Dominion Cyber. All rights reserved."
+baseURL = "https://dominioncyber.com.au/"
+canonifyURLs = false
+enableEmoji = true
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+timeout = "180s"
+
+languageCode = "en-au"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[outputFormats]
+  [outputFormats.server]
+    mediaType = "application/toml"
+    baseName = "server"
+    isPlainText = true
+    notAlternative = true
+    permalinkable = true
+    root = true
+  [outputFormats.netlify]
+    mediaType = "application/toml"
+    baseName = "netlify"
+    isPlainText = true
+    notAlternative = true
+    permalinkable = true
+    root = true
+  [outputFormats.XML]
+    isPlainText = false
+    mediaType = "application/xml"
+    isHtml = false
+    noUgly = true
+    permalinkable = false
+    name = "xml"
+  [outputFormats.REDIR]
+    mediaType = "text/netlify"
+    baseName = "_redirects"
+    isPlainText = true
+    notAlternative = true
+
+[mediaTypes."text/netlify"]
+delimiter = ""
+
+[outputs]
+home = ["HTML", "RSS", "REDIR", "netlify", "server"]
+
+[build]
+  writeStats = true
+
+[taxonomies]
+  tag = 'tags'
+
+[pagination]
+  pagerSize = 9
+
+[minify]
+  [minify.tdewolff.js]
+    keepVarNames = true
+    precision = 0
+    version = 2022
+  [minify.tdewolff.html]
+    keepWhitespace = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/gethinode/hinode"
